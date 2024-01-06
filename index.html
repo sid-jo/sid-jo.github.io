@@ -2,3 +2,461 @@
 <html>
   <head>
     <title>Siddhant Joshi</title>
+    <link rel="icon" href="images/logo-trans.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&family=Victor+Mono:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="horizontal-space-between align-center navbar-background">
+      <div class="horizontal-split align-center left-margin-small">
+        <a
+          class="icon-spacing"
+          href = "https://www.linkedin.com/in/siddhant-joshi-3101911a3/"
+          target="_blank"
+        >
+          <img src = "./images/linkedin.png" width = "25%" height = "25%"
+        /></a>
+        
+        <a
+          class="icon-spacing"
+          href="https://www.github.com/sid-jo" 
+          target="_blank"
+        >
+          <img src="./images/github.png" width = "25%" height = "25%"
+        /></a>
+        
+        <a
+        class="icon-spacing"
+        href = "https://medium.com/@sidjoshi2003/about"
+        target="_blank"
+        >
+          <img src = "./images/medium-icon.png" width = "25%" height = "25%"
+        /></a>
+
+        <a class="icon-spacing" href="mailto:s1joshi@ucsd.edu"
+          ><img src="./images/email.png" width = "25%" height = "25%"
+        /></a>
+      </div>
+      <div class="navbar right-margin-small">
+        <div class="navbar-headers">
+          <a class="headers" href="#about">About</a>
+          <a class="headers" href="#experience">Experience</a>
+          <a class="headers" href="#projects">Projects</a>
+          <a class="headers" href="#skills">Skills</a>
+          <a
+            class="resume-button"
+            href="./files/resume.pdf" download
+            target="_blank"
+            >R&eacutesum&eacute
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div
+      class="horizontal-space-between center-flex left-margin top-margin right-margin"
+    >
+      <div id="about">
+        <div class="header-box">
+          <h1 class="type-word-out">Hi, I'm Sid.</h1>
+        </div>
+        <div class="subtitle pb-15">It's nice to see you here!</div>
+        <h2>
+          I'm a third-year student at UC San Diego studying machine learning and data science.
+          As someone who is passionate about problem-solving and artificial intelligence, 
+          I am eager to learn new relevant skills and technologies. 
+          <br>
+          <br>
+          I've gone from having no experience to building transcriptomic clustering pipelines
+          as a computational research assistant, educating over 100 students on practical 
+          data science in Python for UCSD's upper division courses, 
+          and designing scalable and efficient software infrastructure as an intern at Nokia.
+          My primary interests lie in developing agents that can learn from and adapt to novel 
+          information via general learning methodologies across domains such as NLP, CV, and RL.
+          <br>
+          <br>
+          To kick back, I enjoy trying new foods, playing my violin, boardgaming with friends and family!
+        </h2>          
+      </div>
+      <img
+        class="image-border"
+        src="images/portrait.JPG"
+        alt="Profile Picture"
+        width="30%"
+        height="30%"
+      />
+    </div>
+    <div class="left-margin top-margin-small right-margin bottom-margin">
+      <div id="experience" class="subtitle">Experience</div>
+      <div class="top-margin"></div>
+      <div class="center-flex top-margin-small">
+        <div class="vertical-split right-margin-small">
+          <button class="activities-button experience" onclick="currentExp(1)">
+            Nokia - Intern
+          </button>
+          <button class="activities-button experience" onclick="currentExp(2)">
+            Bambah-Mukku Lab - RA
+          </button>
+          <button class="activities-button experience" onclick="currentExp(3)">
+            UCSD - IA
+          </button>
+          <button class="activities-button experience" onclick="currentExp(4)">
+            Triton Gaming - Financial Director
+          </button>
+          <button class="activities-button experience" onclick="currentExp(5)">
+            DS3 - PEC
+          </button>
+        </div>
+        <div class="activities-box">
+          <div class="activity activities-hide">
+            <h3>
+              Platform Engineering Intern
+              <span class="activities-location">@ Nokia</span>
+            </h3>
+            <div class="activities-date">JUN 2023 - AUG 2023</div>
+            <ul>
+              <li>
+                Spearheaded the solution designing and implementation of a router topology editor in Python
+              </li>
+              <li>
+                Created custom tools and scripts to facilitate editor configuration management,
+                error tracking, and intuitive platform design
+              </li>
+              <li>
+                Contributed to the creation of user stories, sprint planning, and weekly sync-up
+                meetings, ensuring seamless coordination and rapid project delivery
+              </li>
+              <li>
+                Developed scalable systems development knowledge in Git, Python, and Linux
+              </li>
+            </ul>
+          </div>
+          <div class="activity activities-hide">
+            <h3>
+              Research Assistant
+              <span class="activities-location"
+                >@ Bambah-Mukku Lab</span
+              >
+            </h3>
+            <div class="activities-date">MAR 2022 - DEC 2023</div>
+            <ul>
+              <li>
+                Conducted a comprehensive examination and dissection of hypothalamic POA neuron 
+                clusters identified by the novel taxonomy presented in J. Moffitt, D. Bambah-Mukku et al. (2018)
+              </li>
+              <li>
+                Developed an R-based pipeline using Seurat that leveraged unsupervised clustering techniques 
+                and differential gene expression (DEG) analysis to explore potential sub-clusters within those 
+                identified in the aforementioned study
+              </li>
+            </ul>
+          </div>
+          <div class="activity activities-hide">
+            <h3>
+              Instructional Assistant
+              <span class="activities-location">@ UCSD</span>
+            </h3>
+            <div class="activities-date">SEP 2023 - PRESENT</div>
+            <ul>
+              <li>
+                Supported classroom instruction via bi-weekly teaching sessions, 
+                teaching key Python libraries for data analysis and visualization 
+                in upper-division computation courses              
+              </li>
+              <li>
+                Mentored and offered hands-on guidance to 100+ students 
+                on Python homework assignments and data science projects
+              </li>
+              <li>
+                Collaborated with professors and rest of the teaching team
+                to formulate questions for quizzes and exams
+              </li>
+            </ul>
+          </div>
+          <div class="activity activities-hide">
+            <h3>
+              Financial Director
+              <span class="activities-location"
+                >@ Triton Gaming</span
+              >
+            </h3>
+            <div class="activities-date">JAN 2023 - PRESENT</div>
+            <ul>
+              <li>
+                Oversees management of financial records and databases, 
+                budgeting, and financial decision-making
+              </li>
+              <li>
+                Devised an automated budget tracking system using excel for
+                TGEX 2023, our largest annual event with over 1,200 attendees
+                and special guests, including voice actors, gaming personalities,
+                and other industry specialists
+              </li>
+              <li>
+                Producing event analytics using Pandas and Seaborn to
+                provide valuable insights for improving future marketing
+                strategies and sponsorships
+              </li>
+            </ul>
+          </div>
+          <div class="activity activities-hide">
+            <h3>
+              Professional Events Committee
+              <span class="activities-location"
+                >@ Data Science Student Society</span
+              >
+            </h3>
+            <div class="activities-date">NOV 2023 - PRESENT</div>
+            <ul>
+              <li>
+                Curating and hosting a diverse range of professional 
+                events, including panel discussions, workshops, and 
+                networking sessions with industry partners
+              </li>
+              <li>
+                Building and maintaining professional relationships 
+                with sponsors, panelists, and speakers
+              </li>
+              <li>
+                Exposing students to the diverse sectors of the data 
+                science field and provide them with a comprehensive 
+                understanding of industry applications and career pathways
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="left-margin top-margin right-margin">
+      <div id="projects" class="subtitle">Projects</div>
+      <div
+        class="top-margin-small center-flex horizontal-space-between projects"
+      >
+        <div class="projects-box">
+          <div class="vertical-split center-flex">
+            <div class="projects-header padding-bottom-small">
+              Marijuana Biomarkers
+            </div>
+            <img
+              class="project-image-border"
+              src="images/marijuana.png"
+              alt="CS01137"
+              width="40%"
+              height="40%"
+            />
+            <div class="projects-description padding-top">
+              Case study in R that leveraged data from 191 subjects to determine a reliable compound, cut-off, and matrix for recent use.
+            </div>
+            <div class="horizontal-split">
+              <div class="padding-top projects-link padding-right-small">
+                See More
+              </div>
+              <a
+                class="padding-top"
+                href="https://github.com/sid-jo"
+                target="_blank"
+              >
+                <img src="./images/link.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-box">
+          <div class="vertical-split center-flex">
+            <div class="projects-header padding-bottom-small">Supervised ML Paper</div>
+            <img
+              class="project-image-border"
+              src="images/python.png"
+              alt="COGS118a"
+              width="35%"
+              height="35%"
+            />
+            <div class="projects-description padding-top">
+              Implemented common supervised ML algorithms from scratch and compared performances across multiple datasets.
+            </div>
+            <div class="horizontal-split">
+              <div class="padding-top projects-link padding-right-small">
+                View Paper
+              </div>
+              <a
+                class="padding-top"
+                href = "./files/sup_learning.pdf" download
+                target="_blank"
+              >
+                <img src="./images/link.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-box">
+          <div class="vertical-split center-flex">
+            <div class="projects-header padding-bottom-small">Brain Tumor CNN</div>
+            <img
+              class="project-image-border"
+              src="images/pytorch.png"
+              alt="ece176"
+              width="30%"
+              height="30%"
+            />
+            <div class="projects-description padding-top">
+              Implemented a BrainMRNet-inspired brain tumor model classifying 
+              fMRI images into one of four tumor classes, reaching 93% test accuracy.
+            </div>
+            <div class="horizontal-split">
+              <div class="padding-top projects-link padding-right-small">
+                View Paper
+              </div>
+              <a
+                class="padding-top"
+                href = "./files/brain_cnn.pdf" download
+                target="_blank"
+              >
+                <img src="./images/link.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="top-margin-small center-flex horizontal-space-between projects"
+      >
+        <div class="projects-box">
+          <div class="vertical-split center-flex">
+            <div class="projects-header padding-bottom-small">
+              Medium Blogger
+            </div>
+            <img
+              class="project-image-border"
+              src="images/medium.png"
+              alt="Travel Blog App"
+              width="50%"
+              height="50%"
+            />
+            <div class="projects-description padding-top">
+              Publishing weekly articles explaining conceptual frameworks behind topics in statistical learning, machine learning, and data science.
+            </div>
+            <div class="horizontal-split">
+              <div class="padding-top projects-link padding-right-small">
+                Read More
+              </div>
+              <a
+                class="padding-top"
+                href="https://medium.com/@sidjoshi2003/about"
+                target="_blank"
+              >
+                <img src="./images/link.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-box">
+          <div class="vertical-split center-flex">
+            <div class="projects-header padding-bottom-small">
+              COVID-19 and Commerce
+            </div>
+            <img
+              class="project-image-border"
+              src="images/covid.png"
+              alt="cogs108"
+              width="100%"
+              height="100%"
+            />
+            <div class="projects-description padding-top">
+              Data analysis exploring the impact of COVID-19 infection and mortality rates on consumer trends.
+            </div>
+            <div class="horizontal-split">
+              <div class="padding-top projects-link padding-right-small">
+                See More
+              </div>
+              <a
+                class="padding-top"
+                href="hhttps://github.com/jwang307/treehacks-2023/tree/main"
+                target="_blank"
+              >
+                <img src="./images/link.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-box">
+          <div class="vertical-split center-flex">
+            <div class="projects-header padding-bottom-small">
+              Heart Disease Models
+            </div>
+            <img
+              class="project-image-border"
+              src="images/prediction.png"
+              alt="cogs109"
+              width="50%"
+              height="50%"
+            />
+            <div class="projects-description padding-top">
+              Determined predictors of heart disease using data
+              from 253,680 individuals to implement a model that achieved
+               77% test accuracy.
+            </div>
+            <div class="horizontal-split">
+              <div class="padding-top projects-link padding-right-small">
+                View Paper
+              </div>
+              <a
+                class="padding-top"
+                href = "./files/heart_disease.pdf" download
+                target="_blank"
+              >
+                <img src="./images/link.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="left-margin top-margin-small right-margin">
+      <div id="skills" class="subtitle">Skills</div>
+      <div class="center-flex projects-header padding-top">Languages</div>
+      <div class="padding-top horizontal-space-between center-flex">
+        <div class="skills-button right-margin-small">Python</div>
+        <div class="skills-button right-margin-small">R</div>
+        <div class="skills-button right-margin-small">SQL</div>
+        <div class="skills-button right-margin-small">Javascript</div>
+        <div class="skills-button right-margin-small">Java</div>
+        <div class="skills-button right-margin-small">HTML5/CSS</div>
+      </div>
+      <div class="center-flex projects-header padding-top">Frameworks</div>
+      <div class="padding-top horizontal-space-between center-flex">
+        <div class="skills-button right-margin-small">React</div>
+        <div class="skills-button right-margin-small">Node.js</div>
+        <div class="skills-button right-margin-small">Django</div>
+      </div>
+      <div class="center-flex projects-header padding-top">Software</div>
+      <div class="padding-top horizontal-space-between center-flex">
+        <div class="skills-button right-margin-small">Git/Github</div>
+        <div class="skills-button right-margin-small">Ubuntu/Linux</div>
+        <div class="skills-button right-margin-small">Windows OS</div>
+        <div class="skills-button right-margin-small">Visual Studio Code</div>
+        <div class="skills-button right-margin-small">Google Cloud Platform</div>
+        <div class="skills-button right-margin-small">Tableau</div>
+        <div class="skills-button right-margin-small">Microsoft Office</div>
+      </div>
+    </div>
+    <div class="left-margin top-margin-small right-margin">
+      <div class="acknowledgements">
+        Site made from scratch with HTML5/CSS and Javascript. The
+        <a
+          class="gray-text"
+          href="https://github.com/sid-jo/sid-jo.github.io"
+          target="_blank"
+          >code</a
+        >
+        for this is on my Github page.
+      </div>
+    </div>
+    <script type="text/javascript" src="click_func.js"></script>
+  </body>
+</html>
