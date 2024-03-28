@@ -311,14 +311,6 @@
     font-weight: 600;
     font-size: 32px;
   }
-
-  .nst-header {
-    font-family: "Rubik", sans-serif;
-    text-align: center;
-    color: var(--gray-color);
-    font-weight: 600;
-    font-size: 20px;
-  }
   
   .projects-description {
     font-family: "Victor Mono", monospace;
