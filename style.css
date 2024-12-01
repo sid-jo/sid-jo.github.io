@@ -1,9 +1,9 @@
 :root {
-    --back-color: #1B2631;
-    --navbar-color: #2F3A45;
-    --emph-1: #E5D283;
-    --emph-2: #93B1A6;
-    --emph-3: #d5dbdb;
+    --back-color: #FEF3E2;
+    --navbar-color: #a19b91;
+    --emph-1: #BEC6A0;
+    --emph-2: #708871;
+    --emph-3: #606676;
     margin-top: 0px;
     scroll-behavior: smooth;
   }
