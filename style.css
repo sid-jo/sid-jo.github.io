@@ -1,6 +1,7 @@
 :root {
     --back-color: #FEF3E2;
     --project-box: #C0C78C;
+    --navbar-color: #B1C29E;
     --emph-1: #914F1E;
     --emph-2: #708871;
     --emph-3: #606676;
@@ -152,11 +153,11 @@
   /* navbar */
   
   .icon-spacing {
-    margin-right: -100px;
+    margin-right: -20px;
   }
   
   .navbar-background {
-    background-color: var(--emph-2);
+    background-color: var(--navbar-color);
     height: 70px;
     position: fixed;
     width: 100%;
