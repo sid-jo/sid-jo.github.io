@@ -1,6 +1,6 @@
 :root {
     --back-color: #FEF3E2;
-    --navbar-color: #C0C78C;
+    --project-box: #C0C78C;
     --emph-1: #914F1E;
     --emph-2: #708871;
     --emph-3: #606676;
@@ -156,7 +156,7 @@
   }
   
   .navbar-background {
-    background-color: var(--navbar-color);
+    background-color: var(--emph-2);
     height: 70px;
     position: fixed;
     width: 100%;
@@ -297,7 +297,7 @@
     width: 40%;
     height: 40%;
     border-radius: 10px;
-    background-color: var(--navbar-color);
+    background-color: var(--project-box);
     padding: 40px 50px;
     display: flex;
     justify-content: center;
