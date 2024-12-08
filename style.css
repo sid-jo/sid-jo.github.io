@@ -89,7 +89,6 @@
   }
   
   /* flexbox */
-  
   .horizontal-split {
     display: flex;
   }
@@ -127,7 +126,6 @@
   }
   
   /* text */
-  
   .subtitle {
     color: var(--emph-3);
     font-weight: 400;
@@ -159,9 +157,8 @@
   }
   
   /* navbar */
-  
   .icon-spacing {
-    margin-right: -100px;
+    margin-right: 10px;
   }
   
   .navbar-background {
