@@ -1,14 +1,15 @@
 :root {
     --back-color: #FEF3E2;
-    --project-box: #C0C78C;
-    --navbar-color: #B1C29E;
+    --navbar-color: #C0C78C;
     --emph-1: #914F1E;
     --emph-2: #708871;
-    --emph-3: #606676;
+    --emph-3: #1A3636;
     margin-top: 0px;
     scroll-behavior: smooth;
   }
-  /*#1B2631*/
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     background-color: var(--back-color);
     margin: 0;
@@ -58,7 +59,7 @@
   li {
     list-style-type: none;
     font-size: 14px;
-    list-style-image: url(./images/bullet.png);
+    list-style-image: url(./next.png);
     margin-bottom: 10px;
   }
   
@@ -153,7 +154,7 @@
   /* navbar */
   
   .icon-spacing {
-    margin-right: 10px;
+    margin-right: -100px;
   }
   
   .navbar-background {
@@ -162,6 +163,7 @@
     position: fixed;
     width: 100%;
     top: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   .navbar{
@@ -298,13 +300,19 @@
     width: 40%;
     height: 40%;
     border-radius: 10px;
-    background-color: var(--project-box);
+    background-color: var(--navbar-color);
     padding: 40px 50px;
     display: flex;
     justify-content: center;
     margin-right: 5%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
   }
   
+  .projects-box:hover {
+    transform: translateY(-10px);
+  }
+
   .projects-header {
     font-family: "Rubik", sans-serif;
     text-align: center;
@@ -330,34 +338,6 @@
   }
   
   /* skills */
-  .skills {
-    width: 80%;
-  }
-  
-  .skills-button {
-    width: max-content;
-    height: max-content;
-    border-radius: 25px;
-    padding: 15px 15px;
-    background-color: var(--emph-2);
-    color: var(--back-color);
-    font-family: "Victor Mono", monospace;
-    font-weight: 800;
-    font-size: 16px;
-  }
-  
-  .skills-button:hover {
-    width: max-content;
-    height: max-content;
-    border-radius: 25px;
-    padding: 15px 15px;
-    background-color: none;
-    border: 2px solid var(--emph-2);
-    color: var(--back-color);
-    font-family: "Victor Mono", monospace;
-    font-weight: 600;
-    font-size: 16px;
-  }
   
   .acknowledgements {
     color: var(--emph-2);
@@ -414,3 +394,61 @@
   .padding-right-small {
     padding-right: 10px;
   }
+
+/*Skills*/
+
+.skills-section {
+  padding: 40px 0;
+}
+
+.skills-categories {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.skills-category {
+  flex: 1;
+  background-color: var(--navbar-color);
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.skills-category h3 {
+  color: var(--emph-3);
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  border-bottom: 2px solid var(--emph-2);
+  padding-bottom: 10px;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
+  gap: 15px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  background-color: var(--back-color);
+  padding: 12px 15px;
+  border-radius: 10px;
+}
+
+.skill-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.skill-item span {
+  color: var(--emph-3);
+  font-family: "Victor Mono", monospace;
+  font-size: 16px;
+}
