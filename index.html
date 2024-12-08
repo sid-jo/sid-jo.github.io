@@ -91,34 +91,61 @@
         height="30%"
       />
     </div>
+<!--Experiences START-->
     <div class="left-margin top-margin-small right-margin bottom-margin">
       <div id="experience" class="subtitle">Experience</div>
       <div class="top-margin"></div>
       <div class="center-flex top-margin-small">
         <div class="vertical-split right-margin-small">
+          <button class="activities-button experience" onclick="currentExp(1)">
+            Ericsson - AI/ML Intern
+          </button>
           <button class="activities-button experience" onclick="currentExp(2)">
             Nokia - Platform Engineering Intern
-          </button>
-          <button class="activities-button experience" onclick="currentExp(6)">
-            Bambah-Mukku Lab - Research Assistant
-          </button>
-          <button class="activities-button experience" onclick="currentExp(4)">
-            UCSD - Instructional Assistant
-          </button>
-          <button class="activities-button experience" onclick="currentExp(7)">
-            Triton Gaming - Vice President
-          </button>
-          <button class="activities-button experience" onclick="currentExp(5)">
-            DS3 - Prof. Events Team
           </button>
           <button class="activities-button experience" onclick="currentExp(3)">
             SDSC - Machine Learning Intern
           </button>
-          <button class="activities-button experience" onclick="currentExp(1)">
-            Ericsson - AI/ML Intern
+          <button class="activities-button experience" onclick="currentExp(4)">
+            UCSD - Instructional Assistant
           </button>
+          <button class="activities-button experience" onclick="currentExp(5)">
+            DS3 - Prof. Events Team
+          </button>
+          <button class="activities-button experience" onclick="currentExp(6)">
+            Bambah-Mukku Lab - Research Assistant
+          </button>
+          <button class="activities-button experience" onclick="currentExp(7)">
+            Triton Gaming - Vice President
+          </button>          
         </div>
+<!---Descriptions--->
         <div class="activities-box">
+<!--Ericsson-->
+          <div class="activity activities-hide">
+            <h3>
+              AI/ML Intern
+              <span class="activities-location"
+                >@ Ericsson</span
+              >
+            </h3>
+            <div class="activities-date">JUN 2024 - PRESENT</div>
+            <ul>
+              <li>
+                Developed a time series forecasting model achieving <10% error for predictions on traffic data 
+                across customer data centers, thereby significantly improving predictive analytics capabilities
+              </li>
+              <li>
+                Designed and implemented a context-aware ensemble-based anomaly detection system utilizing 
+                autoencoders, correlation analysis, and LogBERT, leading to a 96% reduction in issue identification time
+              </li>
+              <li>
+                Enhanced AI model management by building a user-friendly interface using Flask/Rest API, streamlining 
+                integration and usability
+              </li>
+            </ul>
+          </div>
+<!--Nokia-->
           <div class="activity activities-hide">
             <h3>
               Platform Engineering Intern
@@ -142,26 +169,37 @@
               </li>
             </ul>
           </div>
+<!--SDSC-->
           <div class="activity activities-hide">
             <h3>
-              Research Assistant
+              Machine Learning Intern
               <span class="activities-location"
-                >@ Bambah-Mukku Lab</span
+                >@ San Diego Supercomputer Center</span
               >
             </h3>
-            <div class="activities-date">MAR 2022 - DEC 2023</div>
+            <div class="activities-date">FEB 2023 - PRESENT</div>
             <ul>
               <li>
-                Conducted a comprehensive examination and dissection of hypothalamic POA neuron 
-                clusters identified by the novel taxonomy presented in J. Moffitt, D. Bambah-Mukku et al. (2018)
+                Collaborating with a team of 5 peers to develop guides for effectively running
+                ML and data science applications on advanced cyberinfrastructure (CI) and high-performance
+                computing (HPC) systems
               </li>
               <li>
-                Developed an R-based pipeline using Seurat that leveraged unsupervised clustering techniques 
-                and differential gene expression (DEG) analysis to explore potential sub-clusters within those 
-                identified in the aforementioned study
+                Developed and delivered comprehensive research tutorials for the Cyberinfrastructure-Enabled
+                Machine Learning (CIML) project, empowering researchers with effective prompt engineering practices
+                to optimize Copilot, ChatGPT, Gemini, and other LLMs
+              </li>
+              <li>
+                Conducted thorough assessments of current LLMs, exploring their capabilities and limitations in 
+                the context of data science and machine learning tasks
+              </li>
+              <li>
+                Generating research tutorials for single- and multi-GPU resource management when using PyTorch, 
+                PyTorch Lightning, and Tensorflow for fine-tuning and feature extraction of deep learning applications
               </li>
             </ul>
           </div>
+  <!--IA-->
           <div class="activity activities-hide">
             <h3>
               Instructional Assistant
@@ -187,33 +225,7 @@
               </li>
             </ul>
           </div>
-          <div class="activity activities-hide">
-            <h3>
-              Vice President/Financial Director
-              <span class="activities-location"
-                >@ Triton Gaming</span
-              >
-            </h3>
-            <div class="activities-date">JAN 2023 - PRESENT</div>
-            <ul>
-              <li>
-                Oversees management of financial records and databases, 
-                budgeting, and financial decision-making
-              </li>
-              <li>
-                Devised an automated budget tracking system using excel for
-                TGEX 2023, our largest annual event with over 1,200 attendees
-                and special guests, including voice actors, gaming personalities,
-                and other industry specialists
-              </li>
-              <li>
-                Producing event analytics using Pandas and Seaborn to
-                provide valuable insights for improving future marketing
-                strategies and sponsorships
-              </li>
-            </ul>
-          </div>
-          
+<!--DS3-->
           <div class="activity activities-hide">
             <h3>
               Professional Events Director
@@ -260,64 +272,82 @@
               </li>
             </ul>
           </div>
-          
+<!--Bambah-Mukku-->
           <div class="activity activities-hide">
             <h3>
-              Machine Learning Intern
+              Research Assistant
               <span class="activities-location"
-                >@ San Diego Supercomputer Center</span
+                >@ Bambah-Mukku Lab</span
               >
             </h3>
-            <div class="activities-date">FEB 2023 - PRESENT</div>
+            <div class="activities-date">MAR 2022 - DEC 2023</div>
             <ul>
               <li>
-                Collaborating with a team of 5 peers to develop guides for effectively running
-                ML and data science applications on advanced cyberinfrastructure (CI) and high-performance
-                computing (HPC) systems
+                Conducted a comprehensive examination and dissection of hypothalamic POA neuron 
+                clusters identified by the novel taxonomy presented in J. Moffitt, D. Bambah-Mukku et al. (2018)
               </li>
               <li>
-                Developed and delivered comprehensive research tutorials for the Cyberinfrastructure-Enabled
-                Machine Learning (CIML) project, empowering researchers with effective prompt engineering practices
-                to optimize Copilot, ChatGPT, Gemini, and other LLMs
-              </li>
-              <li>
-                Conducted thorough assessments of current LLMs, exploring their capabilities and limitations in 
-                the context of data science and machine learning tasks
-              </li>
-              <li>
-                Generating research tutorials for single- and multi-GPU resource management when using PyTorch, 
-                PyTorch Lightning, and Tensorflow for fine-tuning and feature extraction of deep learning applications
+                Developed an R-based pipeline using Seurat that leveraged unsupervised clustering techniques 
+                and differential gene expression (DEG) analysis to explore potential sub-clusters within those 
+                identified in the aforementioned study
               </li>
             </ul>
           </div>
+<!--Triton Gaming-->          
           <div class="activity activities-hide">
             <h3>
-              AI/ML Intern
+              Vice President
               <span class="activities-location"
-                >@ Ericsson</span
+                >@ Triton Gaming</span
               >
             </h3>
-            <div class="activities-date">JUN 2024 - PRESENT</div>
+            <div class="activities-date">MAY 2024 - PRESENT</div>
             <ul>
               <li>
-                Developed a time series forecasting model achieving <10% error for predictions on traffic data 
-                across customer data centers, thereby significantly improving predictive analytics capabilities
+                In charge of streamlining cross-committee logistics and communication 
+                between board of 6 directors and 90+ officers of the 
+                largest collegiate gaming organization in the West Coast
               </li>
               <li>
-                Designed and implemented a context-aware ensemble-based anomaly detection system utilizing 
-                autoencoders, correlation analysis, and LogBERT, leading to a 96% reduction in issue identification time
+                Secured $10K in funding through grant proposals and presentations amidst
+                university budget cuts to continue hosting events at a capacity
+                rivaling previous years
               </li>
               <li>
-                Enhanced AI model management by building a user-friendly interface using Flask/Rest API, streamlining 
-                integration and usability
+                Provided pivotal guidance for decisions surrounding organization events,
+                internal matters, and external matters
+              </li>
+            </ul>
+            <h3>
+              Finance Director
+              <span class="activities-location"
+                >@ Triton Gaming</span
+              >
+            </h3>
+            <div class="activities-date">JAN 2023 - PRESENT</div>
+            <ul>
+              <li>
+                Oversees management of financial records and databases, 
+                budgeting, organization bank account, and financial decision-making
+              </li>
+              <li>
+                Devised an automated budget tracking system using excel for
+                TGEX 2023 and 2024, our flagship annual event; managed budgets 
+                of $20K and $35K, respectively.
+              </li>
+              <li>
+                Producing event analytics using Pandas and Seaborn to
+                provide valuable insights to partners for improving future 
+                marketing strategies and sponsorships
               </li>
             </ul>
           </div>
 
+<!--END-->
         </div>
       </div>
     </div>
-<!----- CONSTRUCTION--->
+<!--Projects START-->
 <div class="left-margin top-margin right-margin">
   <div id="projects" class="subtitle">Projects</div>
 
@@ -507,9 +537,9 @@
     </div>
   </div>
 </div>
-
+<!--Projects END-->
     
-<!-----Skills--->
+<!--Skills START-->
     <div class="left-margin top-margin-small right-margin">
       <div id="skills" class="subtitle">Skills</div>
       <div class="center-flex projects-header padding-top">Languages</div>
@@ -544,8 +574,10 @@
         <div class="skills-button right-margin-small">Seurat</div>
         <div class="skills-button right-margin-small">ggplot2</div>        
       </div>
-
     </div>
+<!--Skills END-->
+    
+<!--Footnote-->
     <div class="left-margin top-margin-small right-margin">
       <div class="acknowledgements">
         Site made from scratch with HTML5/CSS and Javascript. The
