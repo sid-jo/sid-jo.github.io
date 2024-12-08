@@ -1,6 +1,6 @@
 :root {
     --back-color: #FEF3E2;
-    --navbar-color: ##B1C1A0;
+    --navbar-color: #B1C1A0;
     --emph-1: #914F1E;
     --emph-2: #708871;
     --emph-3: #1A3636;
@@ -145,6 +145,12 @@
     color: var(--emph-3);
     font-size: 20px;
     font-family: "Rubik", sans-serif;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    padding: 12px 15px;
+  }
+  .headers:hover {
+    background-color: rgba(112, 136, 113, 0.1);
   }
   
   .gray-text {
