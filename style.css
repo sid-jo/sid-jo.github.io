@@ -1,8 +1,9 @@
 :root {
     --back-color: #FEF3E2;
     --navbar-color: #B1C1A0;
+    --card-color: #C1C690;
     --emph-1: #914F1E;
-    --emph-2: #708871;
+    --emph-2: #5F6675;
     --emph-3: #1A3636;
     margin-top: 0px;
     scroll-behavior: smooth;
@@ -306,7 +307,7 @@
     width: 40%;
     height: 40%;
     border-radius: 10px;
-    background-color: var(--navbar-color);
+    background-color: var(--card-color);
     padding: 40px 50px;
     display: flex;
     justify-content: center;
@@ -415,7 +416,7 @@
 
 .skills-category {
   flex: 1;
-  background-color: var(--navbar-color);
+  background-color: var(--card-color);
   border-radius: 15px;
   padding: 25px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
